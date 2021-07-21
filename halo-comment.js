@@ -7112,7 +7112,7 @@ tips.install = Vue => {
 
 external_Vue_default.a.use(vue_lazyload_esm, {
   error: 'https://cdn.jsdelivr.net/gh/LIlGG/cdn@1.0.1/img/Sakura/images/Transparent_Akkarin.th.jpg',
-  loading: 'https://cdn.jsdelivr.net/gh/LIlGG/cdn@1.0.0/img/svg/loader/trans.ajax-spinner-preloader.svg',
+  loading: 'https://cdn.jsdelivr.net/gh/LIlGG/cdn@1.0.1/img/Sakura/images/Transparent_Akkarin.th.jpg',
   attempt: 1
 });
 external_Vue_default.a.use(plugins_Tips);
