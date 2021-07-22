@@ -3827,7 +3827,7 @@ function loop() {
       }
 
       if (Object(util["b" /* isEmpty */])(this.comment.content)) {
-        this.$tips("评论内容不能为空", 5000, this);
+        this.$tips("留言内容不能为空", 5000, this);
         return;
       } // Submit the comment
 
@@ -3862,13 +3862,13 @@ function loop() {
         // 成功后直接新增新的评论node
         try {
           this.createdNewNode(createdComment);
-          this.$tips("评论成功！", 5000, this);
+          this.$tips("留言成功！", 5000, this);
         } catch {
-          this.$tips("评论成功，刷新即可显示最新评论！", 5000, this);
+          this.$tips("留言成功，刷新即可显示最新留言！", 5000, this);
         }
       } else {
         // Show tips
-        this.$tips("您的评论已经投递至博主，等待博主审核！", 5000, this);
+        this.$tips("您的留言已经投递至博主，等待博主审核！", 5000, this);
       }
     },
 
